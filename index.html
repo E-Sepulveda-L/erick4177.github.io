@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">  
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">cod<span>e</span>r.</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Inicio</a></li>
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#services">Habilidades</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hola</span>
+                <span class="two">Soy</span>
+            </div>
+            <h1>Erick</h1>
+            <h3><span>Desarrollador</span> <br>Web</h3>
+        </div>
+    </section>
+    <section class="about" id="about"> 
+        <div class="about-img"> 
+            <img src="imagenes/Person.png">
+        </div>
+        <div class="about-text">
+            <h2>Sobre <span>Mi</span></h2> 
+            <h4>Desarrollador Front-End</h4>
+            <p>Hago sitios Web</p>
+            <a href="https://pinguinodigital.com/wp-content/uploads/2020/08/pagina-en-construcci%C3%B3n.jpg" class="btn">MAS</a>
+        </div> 
+    </section>
+    <section class="services" id="services"> 
+        <div class="main-text"> 
+            <h2><span>Mis</span> Habilidades</h2>
+        </div>
+        <div class="containerr"> 
+                <div class="box">
+                    <h2 class="name">HTML / CSS</h2> 
+                    <div class="circle"></div>
+                    <img src="imagenes/html5_css3.png" id="imgp">
+                </div>
+                <div class="box">
+                    <h2 class="name">JavaScript</h2> 
+                    <div class="circle"></div>
+                    <img src="imagenes/JavaScript_Logo.png" class="product" >
+                </div>
+                <div class="box">
+                    <h2 class="name">Blender</h2> 
+                    <div class="circle"></div>
+                    <img src="imagenes/Logo-de-Blender-768x628.png" class="product" >
+                </div>
+        </div>
+    </section>
+    <script src="raw.githubusercontent.com_micku7zu_vanilla-tilt.js_master_dist_vanilla-tilt.min.js">
+    </script>
+    <script>	
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	    });
+    </script>
+    <section class="portfolio" id="portfolio"> 
+        <div class="main-text">
+            <h2><span>Proyectos </span>Anteriores</h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="imagenes/1.jpg"> 
+                <div class="layer">
+                    <h5>Arcade</h5>
+                    <p>Modelo hecho en blender.</p>
+                    <a href="https://www.youtube.com/@panary5541/featured"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="imagenes/12.jpg"> 
+                <div class="layer">
+                    <h5>Oficina</h5>
+                    <p>Modelo hecho en blender.</p>
+                    <a href="https://www.youtube.com/@panary5541/featured"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="imagenes/pc.png"> 
+                <div class="layer">
+                    <h5>Computador</h5>
+                    <p>Modelo hecho en blender.</p>
+                    <a href="https://www.youtube.com/@panary5541/featured"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="imagenes/silla.png"> 
+                <div class="layer">
+                    <h5>Silla</h5>
+                    <p>Modelo hecho en blender.</p>
+                    <a href="https://www.youtube.com/@panary5541/featured"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="imagenes/sofa.png"> 
+                <div class="layer">
+                    <h5>Sofa</h5>
+                    <p>Modelo hecho en blender.</p>
+                    <a href="https://www.youtube.com/@panary5541/featured"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="imagenes/cuarto.jpg"> 
+                <div class="layer">
+                    <h5>Sala de estar</h5>
+                    <p>Modelo hecho en blender.</p>
+                    <a href="https://www.youtube.com/@panary5541/featurehttps://www.youtube.com/@panary5541/featured"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact"> 
+        <div class="contact-text">
+            <h2>Contacta<span>me!</span></h2>
+            <div class="list">
+                <li><a href="#">314-810-6479</a></li>
+                <li><a href="#">mate.sepuls@gmail.com</a></li>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="https://hastebin.com/share/jaqaremumu" class="form">
+                <input 
+                    type="name" 
+                    placeholder="Nombre" 
+                    required>
+                <input 
+                    type="email"
+                    placeholder="Direrccion de correo" 
+                    required> 
+                <input 
+                    type="" 
+                    placeholder="Numero telefonico" 
+                    required>
+                <textarea 
+                    name="" 
+                    id="" 
+                    cols="35" 
+                    rows="10" 
+                    placeholder="texto / solicitud" 
+                    required>
+                </textarea>
+                <input 
+                    type="submit" 
+                    value="Enviar" 
+                    class="submit" 
+                    required> 
+            </form>
+        </div>
+    </section>
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright © 2023 derechos reservados por (ノ ͡❛ ᴗ ͡❛)ノ</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </section>
+    <script src="scirpt.js"></script>
+</body>
+</html>
